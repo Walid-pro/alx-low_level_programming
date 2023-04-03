@@ -2,7 +2,8 @@
 
 /**
  * main - FizzBuzz function
- * Return: Fizz or Buzz or FizzBuzz
+ *
+ * Return: Always 0.
  */
 int main(void)
 {
