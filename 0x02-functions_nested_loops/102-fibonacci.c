@@ -23,7 +23,8 @@ int main(void)
 		{
 			printf("%lu, ", num3);
 		}
-		num1 = num2;num2 = num3;
+		num1 = num2;
+		num2 = num3;
 		num3 = (num1 + num2);
 	}
 	return (0);
