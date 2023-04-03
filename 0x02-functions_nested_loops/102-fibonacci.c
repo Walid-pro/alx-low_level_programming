@@ -8,24 +8,23 @@
 int main(void)
 {
 	int i;
-	int num1 = 1;
-	int num2 = 2;
-	int num3 = num1 + num2;
+	long int num1 = 1;
+	long int num2 = 2;
+	long int num3 = num1 + num2;
 
-	for (i = 0; i <= 50; i++)
+	printf("%lu, %lu, ", num1, num2);
+	for (i = 3; i <= 50; i++)
 	{
-		if (i < 1)
+		if (i == 50)
 		{
-			printf("%d, %d, ", num1, num2);
+			printf("%lu\n", num3);
 		}
 		else
 		{
-			printf("%d, ", num3);
-			num1 = num2;
-			num2 = num3;
-			num3 = num1 + num2;
+			printf("%lu, ", num3);
 		}
+		num1 = num2;num2 = num3;
+		num3 = (num1 + num2);
 	}
-	printf("\n");
 	return (0);
 }
