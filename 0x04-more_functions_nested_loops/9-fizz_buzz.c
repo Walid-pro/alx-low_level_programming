@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - FizzBuzz function
+ * main - check the code
  *
  * Return: Always 0.
  */
